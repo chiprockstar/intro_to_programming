@@ -6,4 +6,6 @@ first_name = gets.chomp
 puts "Please enter your last name"
 last_name = gets.chomp
 
-puts first_name + " " + last_name 
+puts first_name + " " + last_name
+
+10.times  { puts first_name + " " + last_name }

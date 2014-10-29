@@ -1,17 +1,17 @@
 def check_value(number)
   if number < 0
-  puts "You can't enter a negative number"
+    puts "You can't enter a negative number"
   elsif number >= 0 && number <= 50
-  puts "Number #{number} is between 0 and 50"
+    puts "Number #{number} is between 0 and 50"
   elsif number > 50 && number <= 100
-  puts "Number #{number} is between 51 and 100"
+    puts "Number #{number} is between 51 and 100"
   else
-  puts "Number #{number} is greater than 100"
+    puts "Number #{number} is greater than 100"
   end
 end
 
 def case_check_value(number)
-  case 
+  case
   when number < 0
     puts "You can't enter a negative number"
   when  number >= 0 && number <= 50

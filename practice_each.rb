@@ -8,8 +8,8 @@ names = ['bob', 'joe', 'Steve', 'Janice', 'Susan', 'Helen'].sort.desc
 x = 1
 
 names.each do |name|
-    puts "#{x}. #{name}"
-    x += 1
+  puts "#{x}. #{name}"
+  x += 1
 end
 
 

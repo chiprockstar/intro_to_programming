@@ -4,9 +4,9 @@ a = 5
 
 case a
 when 5
-    puts "a is 5"
+  puts "a is 5"
 when 6
-    puts "a is 6"
+  puts "a is 6"
 else
     puts "a is neither 5, nor 6"
 end
@@ -15,27 +15,27 @@ end
 
 
 answer = case a
-    when 5
-    "a is 5"
-    when
+  when 5
+  "a is 5"
+  when
     "a is 6"
-    else
-        "a is neither 5, nor 6"
-    end
+  else
+    "a is neither 5, nor 6"
+  end
 
 puts answer
- 
- 
- 
-    
+
+
+
+
 answer = case
-    when a == 5
+  when a == 5
     "a is 5"
-    when a == 6
+  when a == 6
     "a is 6"
-    else
-        "a is neither 5, nor 6"
-    end
+  else
+    "a is neither 5, nor 6"
+  end
 
 puts answer
 
@@ -44,9 +44,9 @@ puts answer
 
 a = 5
 if a
-    puts "how can this be true?"
+  puts "how can this be true?"
 else
-    puts "it is not true"
+  puts "it is not true"
 end
 
 
@@ -77,13 +77,13 @@ puts to_upper("Too short.")
 
 def check_value(number)
   if number < 0
-  puts "You can't enter a negative number"
+    puts "You can't enter a negative number"
   elsif number >= 0 && number <= 50
-  puts "Number #{number} is between 0 and 50"
+    puts "Number #{number} is between 0 and 50"
   elsif number > 50 && number <= 100
-  puts "Number #{number} is between 51 and 100"
+    puts "Number #{number} is between 51 and 100"
   else
-  puts "Number #{number} is greater than 100"
+    puts "Number #{number} is greater than 100"
   end
 end
 
@@ -97,9 +97,3 @@ check_value(number)
 # 1. false
 # 2. true -"Did you get it right?"
 # 3. "Alright now!"
-
-
-
-
-
-

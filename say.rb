@@ -9,7 +9,7 @@ puts "I'm fine"
 
 
 def say(words='hello')
-    puts words + '.'
+  puts words + '.'
 end
 
 say()

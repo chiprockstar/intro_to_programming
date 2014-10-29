@@ -17,9 +17,9 @@ x = 0
 
 while x <= 1000
   if x.odd?
-      puts x
+    puts x
   end
-  x += 1
+    x += 1
 end
 
 while x < 25
@@ -28,4 +28,3 @@ if x.even?
 end
 x += 2
 end
-

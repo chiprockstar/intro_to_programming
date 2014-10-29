@@ -16,12 +16,12 @@
 # end
 
 def counts_down(count)
-  
+
   if count <= 0
     puts count
   else
-   puts count
-   counts_down(count - 1)
+    puts count
+    counts_down(count - 1)
   end
 end
 

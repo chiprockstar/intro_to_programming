@@ -88,10 +88,18 @@
 
 #10
 
-h = { a: [1,2,3], b: ['a','b','c'] }
+# h = { a: [1,2,3], b: ['a','b','c'] }
 
-puts h
+# puts h
 
-a = [{a: 'hello'}, {b: 'world'}]
+# a = [{a: 'hello'}, {b: 'world'}]
 
-puts a
+# puts a
+
+
+
+#11
+
+# themoviedb.org
+# api to search movies, actors, tv shows, credits etc.
+# why - I want to create an app that is the kevin bacon game using this api
